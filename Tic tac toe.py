@@ -24,19 +24,15 @@ print(li[0],'|',li[1],'|',li[2],'\n',
 def winner():
         if li[0]==li[1]==li[2]=="X" or li[3]==li[4]==li[5]=="X":
             print("pr1 is winner")
-            e1.insert("pr1 is winner")
             sys.exit()
         elif li[6]==li[7]==li[8]=="X" or li[0]==li[3]==li[6]=="X":
             print("pr1 is winner")
-            e1.insert("pr1 is winner")
             sys.exit()
         elif li[1]==li[4]==li[7]=="X" or li[2]==li[5]==li[8]=="X":
             print("pr1 is winner")
-            e1.insert("pr1 is winner")
             sys.exit()
         elif li[0]==li[4]==li[8]=="X" or li[2]==li[4]==li[6]=="X":
             print("pr1 is winner ")
-            e1.insert("pr1 is winner")
             sys.exit()
         elif li[0]==li[1]==li[2]=="o" or li[3]==li[4]==li[5]=="o":
             print("pr2 is winner")
